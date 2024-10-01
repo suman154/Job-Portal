@@ -37,7 +37,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Custom apps
+    "graphene_django",
+    "jobs", # new app
 ]
+
+GRAPHENE = {
+    "SCHEMA": "job_portal.schema.schema"  # point to the schema
+}
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

@@ -44,7 +44,7 @@ INSTALLED_APPS = [
 ]
 
 GRAPHENE = {
-    "SCHEMA": "job_portal.schema.schema"  # point to the schema
+    "SCHEMA": "jobs.schema.schema"  # point to the schema
 }
 
 

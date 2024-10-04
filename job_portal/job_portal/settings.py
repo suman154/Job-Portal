@@ -89,6 +89,18 @@ DATABASES = {
     }
 }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'job_portal',
+#         'USER': 'postgres',
+#         'PASSWORD': 'Suman@##',
+#         'HOST': 'localhost',  # or use the server's IP address or domain if not localhost
+#         'PORT': '5432',       # default PostgreSQL port
+#     }
+# }
+
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
